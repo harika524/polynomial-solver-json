@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0053cc;
+}
+
+.upload-section {
+  margin-top: 25px;
+}
+
+pre {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 6px;
+  color: #222;
+  white-space: pre-wrap;
+}
